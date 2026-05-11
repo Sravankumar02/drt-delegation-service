@@ -1,5 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { InfoController } from './info.controller';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
 
 describe('InfoController', () => {
   let controller: InfoController;
@@ -7,6 +8,9 @@ describe('InfoController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [InfoController],
+      providers: [
+        { provide: CACHE_MANAGER, useValue: { get: jest.fn(), set: jest.fn() } },
+      ],
     }).compile();
 
     controller = module.get<InfoController>(InfoController);

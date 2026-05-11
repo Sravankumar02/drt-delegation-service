@@ -1,7 +1,7 @@
 
 ## Description
 
-Delegation API for the Numbat network
+Delegation API for the Dharitri network
 
 
 ## Installation
