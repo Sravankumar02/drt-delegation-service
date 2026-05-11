@@ -1,0 +1,5 @@
+{
+  "numbat": {
+    "transactionProcessorMaxLookBehind": 10
+  }
+}

@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="1qIufcTCwzwJIdN5sxQa" name="Page-1">
+    <mxGraphModel dx="1740" dy="1094" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dpbjne3FC02CdltRRv22-6" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-14" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Providers Module" vertex="1">
+          <mxGeometry height="60" width="120" x="4" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-26" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Delegation Module" vertex="1">
+          <mxGeometry height="60" width="120" x="9" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-7" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Delegation Posts" vertex="1">
+          <mxGeometry height="60" width="120" x="-183" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-8" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Information Gets about staked values" vertex="1">
+          <mxGeometry height="60" width="120" x="-183" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Providers folder&lt;br&gt;structure with manifest.json and logos" vertex="1">
+          <mxGeometry height="75" width="196" x="236" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-11" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Get providers" vertex="1">
+          <mxGeometry height="60" width="120" x="-185" y="-38" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-12" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Dpbjne3FC02CdltRRv22-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Get Featured providers" vertex="1">
+          <mxGeometry height="60" width="120" x="-185" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-13" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Config with featured providers" vertex="1">
+          <mxGeometry height="60" width="120" x="236" y="109" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-18" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-17" parent="1" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1&gt;Adding a new provider&lt;/h1&gt;&lt;p&gt;Anyone can make a pull request and add a configuration folder with a new provider.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="307" x="504" y="-21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-21" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-22" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-23" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-24" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-32" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="457" width="51" x="-283" y="-39" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-28" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" target="Dpbjne3FC02CdltRRv22-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Smart contract service" vertex="1">
+          <mxGeometry height="60" width="120" x="241" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-27" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Dharitri" vertex="1">
+          <mxGeometry height="80" width="120" x="511" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-30" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Swagger&lt;br&gt;API documentation" vertex="1">
+          <mxGeometry height="75" width="97" x="-306" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-33" edge="1" parent="1" source="Dpbjne3FC02CdltRRv22-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dpbjne3FC02CdltRRv22-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Get provider info" vertex="1">
+          <mxGeometry height="60" width="120" x="-185" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="Dpbjne3FC02CdltRRv22-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font style=&quot;font-size: 27px&quot;&gt;Delegation Service API&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71" width="574" x="6" y="-136" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

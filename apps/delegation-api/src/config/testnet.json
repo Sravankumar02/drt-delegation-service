@@ -1,0 +1,11 @@
+{
+  "numbat": {
+    "elastic": "https://testnet-index.dharitri.org",
+    "numbatApi": "https://testnet-api.dharitri.org",
+    "gateway": "https://testnet-gateway.dharitri.org",
+    "explorer": "https://testnet-explorer.dharitri.org",
+    "chainID": "T",
+    "transactionProcessorMaxLookBehind": 10,
+    "stakingV5GenesisTokenSupply": 24433152
+  }
+}
