@@ -9,14 +9,8 @@ describe('DelegationController', () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [DelegationController],
       providers: [
-        {
-          provide: DelegationService,
-          useValue: {
-            getAllContractDataForUser: jest.fn(),
-            getDelegationForUser: jest.fn(),
-          },
-        },
-      ],
+        { provide: DelegationService, useValue: {} }
+      ]
     }).compile();
 
     controller = module.get<DelegationController>(DelegationController);

@@ -9,15 +9,8 @@ describe('ProvidersController', () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [ProvidersController],
       providers: [
-        {
-          provide: ProvidersService,
-          useValue: {
-            getAllProviders: jest.fn(),
-            getProvider: jest.fn(),
-            getProviderDelegations: jest.fn(),
-          },
-        },
-      ],
+        { provide: ProvidersService, useValue: {} }
+      ]
     }).compile();
 
     controller = module.get<ProvidersController>(ProvidersController);

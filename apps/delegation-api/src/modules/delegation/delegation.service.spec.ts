@@ -15,7 +15,7 @@ describe('DelegationService', () => {
         { provide: NumbatElasticService, useValue: {} },
         { provide: CacheManagerService, useValue: {} },
         { provide: NumbatProxyService, useValue: {} },
-        { provide: WINSTON_MODULE_PROVIDER, useValue: { log: jest.fn(), error: jest.fn() } },
+        { provide: WINSTON_MODULE_PROVIDER, useValue: {} },
       ],
     }).compile();
 

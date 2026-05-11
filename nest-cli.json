@@ -17,7 +17,9 @@
       "entryFile": "main",
       "sourceRoot": "apps/delegation-api/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/delegation-api/tsconfig.app.json"
+        "tsConfigPath": "apps/delegation-api/tsconfig.app.json",
+        "assets": ["**/*.json"],
+        "watchAssets": true
       }
     }
   }

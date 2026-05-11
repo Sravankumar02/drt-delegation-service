@@ -9,7 +9,10 @@ describe('InfoController', () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [InfoController],
       providers: [
-        { provide: CACHE_MANAGER, useValue: { get: jest.fn(), set: jest.fn() } },
+        {
+          provide: CACHE_MANAGER,
+          useValue: {},
+        },
       ],
     }).compile();
 

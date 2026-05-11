@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ProviderManagerService } from './provider-manager.service';
 import { NumbatProxyService } from '../numbat-communication/numbat-proxy.service';
+import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 import { ProfileLoaderService } from './profile/loader/profile-loader.service';
 import { IdentitiesLoaderService } from './identities-loader/identities-loader.service';
-import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 
 describe('ProviderManagerService', () => {
   let service: ProviderManagerService;
@@ -13,7 +13,7 @@ describe('ProviderManagerService', () => {
       providers: [
         ProviderManagerService,
         { provide: NumbatProxyService, useValue: {} },
-        { provide: WINSTON_MODULE_PROVIDER, useValue: { log: jest.fn(), error: jest.fn(), info: jest.fn() } },
+        { provide: WINSTON_MODULE_PROVIDER, useValue: {} },
         { provide: ProfileLoaderService, useValue: {} },
         { provide: IdentitiesLoaderService, useValue: {} },
       ],

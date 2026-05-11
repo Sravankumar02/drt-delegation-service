@@ -1,4 +1,4 @@
-import {envload} from './env_load';
+import { envload } from './env_load';
 envload();
 import config from 'config';
 import { CachingConfig } from '../models';
