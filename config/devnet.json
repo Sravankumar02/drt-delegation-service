@@ -1,7 +1,0 @@
-{
-  "numbat": {
-    "chainID": "D",
-    "transactionProcessorMaxLookBehind": 1000,
-    "stakingV5GenesisTokenSupply": 21242828
-  }
-}
